@@ -17,5 +17,4 @@
  
 ```
 pip install kivy
-
 ```
