@@ -1,0 +1,65 @@
+GridLayoutExample:
+
+<GridLayoutExample@GridLayout>:
+    cols: 2
+    rows: 3
+
+    Button:
+        text: "A"
+    Button:
+        text: "B"
+    Button:
+        text: "C"
+    Button:
+        text: "D"
+    Button:
+        text: "E"
+    Button:
+        text: "F"
+
+
+<AnchorLayoutExample>:
+    anchor_x: "center"
+    anchor_y: "top"
+    BoxLayout:
+        size_hint: .2,.2
+        Button:
+            text: "A"
+        Button:
+            text: "B"
+            
+
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button: 
+        text: "A"
+        size_hint: 0.5, None
+        width: "100dp"
+        height: "340dp"
+        pos_hint: {"top": 1}
+
+    BoxLayout:
+        orientation: "vertical"
+        Button: 
+            text: "B"
+        Button: 
+            text: "B1"
+        Button: 
+            text: "B2"
+        Button: 
+            text: "B3"
+
+
+<MainWidget>:
+    Button: 
+        text: "Hello"
+        size: "80dp", "80dp"
+        pos: 500,500
+        color: 1, 0, 0, 1
+    Label: 
+        text: "Click this button!"
+        size: "200dp", "150dp"
+        pos: 200,300
+        color: 0, 1, 1, 1
+
+        
